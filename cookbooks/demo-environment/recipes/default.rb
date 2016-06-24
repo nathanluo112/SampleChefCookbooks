@@ -1,5 +1,3 @@
-# Reboot machine
-
 file 'C:\tmp\environment-demo.txt' do
   content node["demo"]["environment"]
   action :create
