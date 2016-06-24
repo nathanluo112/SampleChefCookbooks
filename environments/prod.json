@@ -1,13 +1,16 @@
 {
-    "name": "example",
+    "name": "prod",
     "description": "This is an example environment defined as JSON",
     "chef_type": "environment",
     "json_class": "Chef::Environment",
     "default_attributes": {
     },
     "override_attributes": {
+        "demo" : {
+            "environment": "prod"
+        }
     },
     "cookbook_versions": {
-        "example": "= 1.0.0"
+        "demo-version": "= 1.0.0"
     }
 }
